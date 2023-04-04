@@ -118,7 +118,7 @@ body {
         div {
             &:hover {
                 cursor: pointer;
-                filter: #FB5E84;
+                filter: invert(59%) sepia(38%) saturate(6007%) hue-rotate(314deg) brightness(105%) contrast(97%);
             }
         }
     }
