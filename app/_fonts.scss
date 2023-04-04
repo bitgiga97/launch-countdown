@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+@mixin numText {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.6em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1.08px;
+    color: #FB5E84;
+}
+
+@mixin text {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7px;
+    line-height: 9px;
+    text-align: center;
+    letter-spacing: 2.95937px;
+    color: #8385A9;
+}
+
+@mixin h1-text {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 6.13636px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@mixin numTextDesktop {
+    font-size: 80px;
+    line-height: 71px;
+    text-align: center;
+    letter-spacing: -2.4px;
+    color: #FB5E84;
+}
+
+@mixin textDesktop {
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 5.91875px;
+    color: #8385A9;
+}
